@@ -91,6 +91,8 @@ the pitch.
 {% include dc/intro.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/intro.html %}
+{% elsif site.carpentry == "ic" %}
+{% include ic/intro.html %}
 {% endif %}
 
 {% comment %}
@@ -105,6 +107,8 @@ workshop is only open to people from a particular institution.
 {% include dc/who.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
+{% elsif site.carpentry == "ic" %}
+{% include ic/who.html %}
 {% endif %}
 
 {% comment %}
@@ -361,6 +365,8 @@ please preview your site before committing, and make sure to run
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
   Data Carpentry
+  {% elsif site.carpentry == "ic" %}
+  Carpentries Incubator
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
@@ -399,4 +405,6 @@ during the workshop.
 {% include dc/setup.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
+{% elsif site.carpentry == "ic" %}
+{% include ic/setup.html %}
 {% endif %}
