@@ -175,7 +175,7 @@ Modify the block below if there are any special requirements.
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
     Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) with stable connection to Internet. 
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
@@ -257,11 +257,21 @@ Edit the text to match who can attend the workshop. For instance:
 - If you are interested in attending this workshop, contact me@example.com
   for more information
 
-<p id="who-can-attend">
-    <strong>Who can attend?:</strong>
-    This workshop is open to ....
-</p>
 {% endcomment %}
+<p id="who-can-attend">
+    <strong>Who can attend?:</strong><br>
+<ul>
+	<li>Graduate students and other researchers who:
+		<ul>
+			<li>are writing or about to start writing codes as a part of your research work</li>
+			<li>need to run codes written by others.</li>
+		</ul>
+	</li>
+	<li>Especially recommended to Python users or users to be.</li>
+</ul>
+As prerequisites, basic knowledge of Bash / Unix Shell is required: You should be able to start a terminal, navigate to different directories, edit and manipulate files, and run commands which we provide. <a href="https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/setup/">Setup instructions</a> will help you get started with the terminal, and going through&nbsp;<a href="https://www.youtube.com/watch?v=56p6xX0aToI">shell crash course</a>&nbsp;is sufficient for this workshop.<br>
+Although Conda is not python-specific package and environment management system, please note that the examples and exercises in this workshop are Python-heavy. 
+</p>
 
 <hr/>
 
