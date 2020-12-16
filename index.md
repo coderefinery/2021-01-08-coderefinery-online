@@ -3,21 +3,21 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "Introduction to conda for (data) Scientists"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+venue: "UiO, FGI, UiT, and Aalto Univ. / CodeRefinery team"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "59.9"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "10.75"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Jan 8, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "09:00 am - 12:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "09:00 - 12:30 (CET)/ 10:00 - 13:30 (EET)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-01-08      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-01-08        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Samantha Wittke", "Anne Fouilloux"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Radovan Bast", "Sabry Razick"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["annefou@geo.uio.no"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  https://hackmd.io/@coderefinery/conda  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -68,7 +68,7 @@ displayed if the 'eventbrite' field in the header is not set.
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  src="https://indico.neic.no/event/169"
   frameborder="0"
   width="100%"
   height="280px"
@@ -257,21 +257,38 @@ Edit the text to match who can attend the workshop. For instance:
 - If you are interested in attending this workshop, contact me@example.com
   for more information
 
-{% endcomment %}
+
 <p id="who-can-attend">
-    <strong>Who can attend?:</strong><br>
-<ul>
-	<li>Graduate students and other researchers who:
-		<ul>
-			<li>are writing or about to start writing codes as a part of your research work</li>
-			<li>need to run codes written by others.</li>
-		</ul>
-	</li>
-	<li>Especially recommended to Python users or users to be.</li>
-</ul>
+    <strong>Who can attend?:</strong>
 As prerequisites, basic knowledge of Bash / Unix Shell is required: You should be able to start a terminal, navigate to different directories, edit and manipulate files, and run commands which we provide. <a href="https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/setup/">Setup instructions</a> will help you get started with the terminal, and going through&nbsp;<a href="https://www.youtube.com/watch?v=56p6xX0aToI">shell crash course</a>&nbsp;is sufficient for this workshop.<br>
 Although Conda is not python-specific package and environment management system, please note that the examples and exercises in this workshop are Python-heavy. 
 </p>
+{% endcomment %}
+<hr/>
+
+<h2 id="registration">Registration</h2>
+<p>There are 4 registration types in this workshop:</p>
+
+<ol>
+	<li><strong>Team learner</strong>; if you are teaming up with others (like colleagues, project team, or friends) and have at least one exercise leader in your team, choose this option. When team exercise leader's sign-up is approved, team learners' sign-ups are also to be approved.</li>
+	<li><strong>Team exercise leader</strong>; if you are teaming up with others and you can lead the breakout room session for exercise with your team members, choose this option. If you have previous knowledge and experience with Conda or relevant package and environment management system, it is sufficient&nbsp;to be an exercise leader.</li>
+	<li><strong>Individual learner</strong>; if you are not teaming up with anyone and have no previous experiences with Conda or relevant package and environment management system, choose this option. Note that the priority criteria may apply&nbsp;to this type of application.</li>
+	<li><strong>Individual exercise leader</strong>; if you are not teaming up with anyone and have previous experiences&nbsp;with and knowledge about&nbsp;Conda or relevant&nbsp;package and environment management system, choose this option.</li>
+</ol>
+
+<p>You will receive an automatic email to confirm your registration upon sign-up. Besides this automatic email, we will send a separate email to those who we could offer a seat at the workshop.</p>
+
+<p>When we receive more sign-ups by individual learners than our capacity allows, priority is given to these institutions.</p>
+
+<ul>
+	<li>University of Oslo or Oslo University Hospital.</li>
+	<li>UiT: The Arctic University of Norway</li>
+	<li>Finnish Geospatial Research Institute FGI&nbsp;</li>
+	<li>Aalto University</li>
+</ul>
+
+<p><button  type="button" class="btn btn-success" onclick="window.location.href = 'https://indico.neic.no/event/169/';">Sign up</button></p>
+
 
 <hr/>
 
@@ -350,7 +367,7 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
-{% include custom-schedule.html %}
+{% include ic/schedule.html %}
 
 <hr/>
 
