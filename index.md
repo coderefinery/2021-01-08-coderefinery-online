@@ -175,7 +175,7 @@ Modify the block below if there are any special requirements.
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
     Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) with stable connection to Internet. 
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) with stable connection to Internet.
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
@@ -261,7 +261,7 @@ Edit the text to match who can attend the workshop. For instance:
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
 As prerequisites, basic knowledge of Bash / Unix Shell is required: You should be able to start a terminal, navigate to different directories, edit and manipulate files, and run commands which we provide. <a href="https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/setup/">Setup instructions</a> will help you get started with the terminal, and going through&nbsp;<a href="https://www.youtube.com/watch?v=56p6xX0aToI">shell crash course</a>&nbsp;is sufficient for this workshop.<br>
-Although Conda is not python-specific package and environment management system, please note that the examples and exercises in this workshop are Python-heavy. 
+Although Conda is not python-specific package and environment management system, please note that the examples and exercises in this workshop are Python-heavy.
 </p>
 {% endcomment %}
 <hr/>
@@ -272,7 +272,7 @@ Although Conda is not python-specific package and environment management system,
 <ol>
 	<li><strong>Team learner</strong>; if you are teaming up with others (like colleagues, project team, or friends) and have at least one exercise leader in your team, choose this option. When team exercise leader's sign-up is approved, team learners' sign-ups are also to be approved.</li>
 	<li><strong>Team exercise leader</strong>; if you are teaming up with others and you can lead the breakout room session for exercise with your team members, choose this option. If you have previous knowledge and experience with Conda or relevant package and environment management system, it is sufficient&nbsp;to be an exercise leader.</li>
-	<li><strong>Individual learner</strong>; if you are not teaming up with anyone and have no previous experiences with Conda or relevant package and environment management system, choose this option. Note that the priority criteria may apply&nbsp;to this type of application.</li>
+	<li><strong>Individual learner <span style="color:red;">(Registration closed for this type)</span></strong>; if you are not teaming up with anyone and have no previous experiences with Conda or relevant package and environment management system, choose this option. Note that the priority criteria may apply&nbsp;to this type of application.</li>
 	<li><strong>Individual exercise leader</strong>; if you are not teaming up with anyone and have previous experiences&nbsp;with and knowledge about&nbsp;Conda or relevant&nbsp;package and environment management system, choose this option.</li>
 </ol>
 
