@@ -14,7 +14,7 @@ humantime: "09:00 - 12:30 (CET)/ 10:00 - 13:30 (EET)"    # human-readable times 
 startdate: 2021-01-08      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-01-08        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Samantha Wittke", "Anne Fouilloux"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Niket Agrawal", "Octavian Andrei", "Radovan Bast", "Emiliano Gelati", "Tomasx Kopec", "Emilia Lipponen", "Hui Tang", "Sabry Razick", "Naoe Tatara"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Niket Agrawal", "Octavian Andrei", "Radovan Bast", "Emiliano Gelati", "Tomasx Kopec", "Emilia Lipponen", "Lex Nederbragt", "Hui Tang", "Sabry Razick", "Naoe Tatara"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["support@coderefinery.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  https://hackmd.io/@coderefinery/conda  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -287,7 +287,7 @@ Although Conda is not python-specific package and environment management system,
 	<li>Aalto University</li>
 </ul>
 
-<p><button  type="button" class="btn btn-success" onclick="window.location.href = 'https://indico.neic.no/event/169/';">Sign up</button></p>
+<p><button  type="button" class="btn btn-danger" onclick="window.location.href = 'https://indico.neic.no/event/169/';">Registration closed</button></p>
 
 
 <hr/>
