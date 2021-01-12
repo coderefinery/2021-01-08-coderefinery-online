@@ -436,10 +436,9 @@ during the workshop.
 {% include ic/setup.html %}
 {% endif %}
 
-{% comment %}
-Collaborative document
-Collaborative document used during the course
+
+<h3> Collaborative document<h4>
 <p>
- 
+  Collaborative document used during the course: <link to hackmd.md>
 </p>
 
