@@ -435,3 +435,11 @@ during the workshop.
 {% elsif site.carpentry == "ic" %}
 {% include ic/setup.html %}
 {% endif %}
+
+{% comment %}
+Collaborative document
+Collaborative document used during the course
+<p>
+ 
+</p>
+
