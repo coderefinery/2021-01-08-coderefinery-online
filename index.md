@@ -437,7 +437,7 @@ during the workshop.
 {% endif %}
 
 
-<h3> Collaborative document<h4>
+<h3> Collaborative document<h3>
 <p>
   Collaborative document used during the course: <link to hackmd.md>
 </p>
