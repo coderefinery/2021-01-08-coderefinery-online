@@ -439,6 +439,7 @@ during the workshop.
 
 <h3> Collaborative document<h3>
 <p>
-  Collaborative document used during the course: <link to hackmd.md>
+  Collaborative document used during the course: 
+  <a href="/hackmd/">Collaborative document used during the course</a>
 </p>
 
