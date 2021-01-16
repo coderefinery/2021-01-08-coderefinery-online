@@ -4,8 +4,7 @@ permalink: /hackmd/
 
 # Introduction to conda for (data) Scientists
 
-###### tags: `workshop`
-## Links
+### Links
 
 
 - **Welcome!** Please keep this HackMD open 
@@ -17,11 +16,11 @@ permalink: /hackmd/
 - feedback for improving lesson template: https://carpentries.typeform.com/to/EJAMLQT5
 
 
-## Getting Started with Conda
+### Getting Started with Conda
 - If you have any questions, please type it here (better than zoom chat) 
 
 
-## What are some of the potential benefits from installing software separately for each project? What are some of the potential costs?
+### What are some of the potential benefits from installing software separately for each project? What are some of the potential costs?
 
 Benefits:
 - you have exactly the packages you need for that project
@@ -68,7 +67,7 @@ Costs:
 - Having multiple copies of same packages
 
 
-## Questions
+### Questions
 
 Don't hesitate to ask questions here! We can answer/comment asynchronously.
 
@@ -386,7 +385,7 @@ The first command seems to give me only my created env with the prefix, the othe
 I am a bit confused.
 
 
-## Concluding remarks
+### Concluding remarks
 
 - Give feedback to this workshop itself under the Feedback section below.
     - One good thing :+1: 
@@ -399,7 +398,7 @@ I am a bit confused.
 
 
 
-## Feedback
+### Feedback
 
 One thing that was particularly good
 - Great pace and it was good balance of what was shown and what was not shown.
@@ -423,16 +422,16 @@ One thing to improve
 
 
 
-## Suggestions for material
+### Suggestions for material
 
 - check whether the environment name in the "Create a new environment from a YAML file" exercise has already been used before. It would be good to have a new name here so that we can check with `conda env list` whether it has been installed correctly.
 
 
-## future training on containers
+### future training on containers
 
 Below some links:
 
-- https://carpentries-incubator.github.io/singularity-introduction
-- https://carpentries-incubator.github.io/docker-introduction
-- https://imperialcollegelondon.github.io/2020-07-13-Containers-Online
+- [https://carpentries-incubator.github.io/singularity-introduction](https://carpentries-incubator.github.io/singularity-introduction)
+- [https://carpentries-incubator.github.io/docker-introduction](https://carpentries-incubator.github.io/docker-introduction)
+- [https://imperialcollegelondon.github.io/2020-07-13-Containers-Online](https://imperialcollegelondon.github.io/2020-07-13-Containers-Online)
 
