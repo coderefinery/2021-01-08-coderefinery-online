@@ -435,3 +435,10 @@ during the workshop.
 {% elsif site.carpentry == "ic" %}
 {% include ic/setup.html %}
 {% endif %}
+
+
+<h3> Collaborative document<h3>
+<p>
+  <a href="hackmd/">Collaborative document used during the course</a>
+</p>
+
